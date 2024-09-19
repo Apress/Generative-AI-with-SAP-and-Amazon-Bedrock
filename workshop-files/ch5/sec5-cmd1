@@ -1,4 +1,0 @@
-#This Notebook will show the integration between Generative AI with SAP HANA Cloud
-!pip install -q langchain boto3 awscli botocore
-!pip install -q sqlalchemy-hana langchain_experimental hdbcli
-

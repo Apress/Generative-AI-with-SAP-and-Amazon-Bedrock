@@ -1,5 +1,0 @@
-#Import your dependencies
-from hdbcli import dbapi
-import pandas as pd
-from pandasai import SmartDataframe
-from pandasai.llm import BedrockClaude

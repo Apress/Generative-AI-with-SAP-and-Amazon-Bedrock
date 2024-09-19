@@ -1,4 +1,0 @@
-#Let's connect to the SAP HANA Database and then execute langchain SQL Database Chain to query from the Generative AI
-db = SQLDatabase.from_uri("hana://<user>:<password>@<changesqlendpoint>.hana.trial-us10.hanacloud.ondemand.com:443")
-db_chain = SQLDatabaseChain.from_llm(llm=llm, db=db, prompt=PROMPT, verbose=True, use_query_checker=True, top_k=10 )
-

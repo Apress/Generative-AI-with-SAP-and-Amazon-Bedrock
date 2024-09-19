@@ -1,2 +1,0 @@
-analysis=summarize_pdf("RFSSLD00.pdf")
-print(analysis[0]['text'])

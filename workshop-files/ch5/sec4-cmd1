@@ -1,3 +1,0 @@
-cd /opt/conda/bin/
-./pip install boto3 hdbcli
-

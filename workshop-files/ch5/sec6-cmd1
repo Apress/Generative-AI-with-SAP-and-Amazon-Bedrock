@@ -1,3 +1,0 @@
-#This Notebook will show the integration between Generative AI with SAP HANA Cloud
-!pip install -q langchain hdbcli
-

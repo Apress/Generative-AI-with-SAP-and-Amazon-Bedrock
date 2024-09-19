@@ -1,4 +1,0 @@
-conda install -c conda-forge zip
-/opt/conda/bin/pip install --upgrade -t ./python hdbcli pandas boto3
-/opt/conda/bin/zip -r python.zip python
-/opt/conda/bin/aws s3 cp python.zip s3://sagemaker-us-west-2-AWSAccountNumber/lambda_layer/

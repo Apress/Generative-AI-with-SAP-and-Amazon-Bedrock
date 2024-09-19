@@ -1,2 +1,0 @@
-curl -X POST -H "x-api-key:YourAPIKey" https://YourAPIEndpoint.execute-api.us-east-1.amazonaws.com/default/TextToSQL -d '{ "prompt": "How many Hotels are there in Seattle?" }'
-

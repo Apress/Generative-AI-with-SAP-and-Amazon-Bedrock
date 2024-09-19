@@ -1,3 +1,0 @@
-#Let's give a bit more challenges to the Generative AI
-res = agent_executor({"input":"How many Hotels are there in Seattle ?"})
-print(res['output'])

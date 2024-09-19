@@ -1,3 +1,0 @@
-#And what happened if the information is stored in another table
-db_chain.invoke("How many free single and double rooms are there in Congress Hotel ?")
-
