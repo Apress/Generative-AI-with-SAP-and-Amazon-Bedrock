@@ -1,0 +1,5 @@
+schema = "USER1"
+tablename = "ALL_RESERVATIONS"
+data=pd.read_sql(f'select * from {schema}.{tablename}',conn)
+print(data)
+

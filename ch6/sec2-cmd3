@@ -1,0 +1,31 @@
+import os
+from PyPDF2 import PdfReader
+
+def summarize_pdf(path: str) -> str:
+    reader = PdfReader(path)
+    text = "\n".join([page.extract_text() for page in reader.pages])
+    
+    System = "You are a great Finance Analyst, which can analyze the health of a company based on a Financial Report."
+    User = "Analyze the result of the Report below and provide an Executive Summary with Insights.\n\n"+text
+
+    body = json.dumps({
+      "max_tokens": 2000,
+      "temperature": 0,
+      "system": System,
+      "messages": [
+          {
+              "role": "user", 
+              "content": [
+                  {
+                      "type": "text",
+                      "text": User
+                  }
+              ]
+          }
+      ],
+      "anthropic_version": "bedrock-2023-05-31"
+    })
+    response = boto3_bedrock.invoke_model(body=body, modelId="anthropic.claude-3-sonnet-20240229-v1:0")
+    response_body = json.loads(response.get("body").read())
+    result = response_body.get("content")
+    return result

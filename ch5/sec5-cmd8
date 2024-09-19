@@ -1,0 +1,3 @@
+#Let's give a bit more challenges to the Generative AI
+db_chain.invoke("How many HOTEL are there in Seattle ?")
+

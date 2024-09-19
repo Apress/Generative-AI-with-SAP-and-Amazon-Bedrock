@@ -1,0 +1,3 @@
+#Execute the first query, this is a simple English to text SQL
+db_chain.invoke("How many HOTEL are there ?")
+
