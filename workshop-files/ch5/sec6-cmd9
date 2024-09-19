@@ -1,0 +1,3 @@
+#How about a more challenging and complex query ?
+res = agent_executor({"input":"What are the maintenances done at Congress Hotel ?"})
+print(res['output'])

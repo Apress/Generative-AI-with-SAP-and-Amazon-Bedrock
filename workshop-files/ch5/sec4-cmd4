@@ -1,0 +1,11 @@
+cursor = conn.cursor()
+sql_command = "select * from USER1.HOTEL;"
+cursor.execute(sql_command)
+rows = cursor.fetchall()
+for row in rows:
+    for col in row:
+        print ("%s" % col, end =" ")
+    print ("")
+cursor.close()
+conn.close()
+

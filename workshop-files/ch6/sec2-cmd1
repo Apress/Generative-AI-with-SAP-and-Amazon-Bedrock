@@ -1,0 +1,3 @@
+#This Notebook will show the integration between Generative AI with SAP HANA Cloud
+!pip install -q --upgrade pyPDF2 pycryptodome
+

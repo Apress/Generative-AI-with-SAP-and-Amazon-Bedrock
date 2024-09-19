@@ -1,0 +1,4 @@
+mkdir ~/.ssl
+wget --no-check-certificate https://cacerts.digicert.com/DigiCertGlobalRootCA.crt.pem -O ~/.ssl/DigiCertGlobalRootCA.crt.pem
+wget --no-check-certificate https://cacerts.digicert.com/DigiCertSHA2SecureServerCA-2.crt.pem -O ~/.ssl/DigiCertSHA2SecureServerCA-2.crt.pem
+

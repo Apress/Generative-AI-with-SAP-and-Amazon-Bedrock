@@ -1,0 +1,3 @@
+#And what happened if the information is stored in another table
+res = agent_executor({"input":"How many total free rooms are there in Congress Hotel ?"})
+print(res['output'])
